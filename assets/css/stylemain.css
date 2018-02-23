@@ -14,14 +14,24 @@ font-style: normal;
 header 
         {
 font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: #ffffff;
+position: fixed;
+z-index: 99;
 width: 100%;
-border-color: #cccccc;
+margin: 0 0 30px;
+overflow: auto;
+color: #fff;
+background: #fff;
+border-bottom: 2px solid #ccc;
+        }    
+.box-cntnr    
+        {
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+clear: both;
 height: 90px;
-list-style-type: none;
-padding-left: 200px;
-display: flex;
-        }        
+        }
+        
 .box-name
         {
 height: 90px;
@@ -30,120 +40,163 @@ background-color: teal;
 padding-top: 25px;
 margin-right: 210px;
         }       
-.box-name a
-        {
-text-decoration: none;
-        }
-.box-name :hover
+.box-cntnr :hover
         {
 background-color: steelblue;
 color: black;
-border-bottom-right-radius: 10px;
+border-bottom-right-radius: 15px;
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
 border-top-right-radius: 15px;
         }
 .box-nav
         {
-display: inline-block;
-width: 270px;
-margin-left: 220px;
-padding-top: 30px;
+margin-top: 25px;
+float: right;
         }  
 .box-nav a
         {
-float: left;
-display: block;
+display: inline-block;
 color: teal;
-text-align:  center;
-padding: 3px 4px;
+text-align: center;
+padding-left: 15px;
 text-decoration: none;
-border-bottom-left-radius: 15px;
-border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;        
+line-height: 18px;
+margin-left: 15px;
+border-left-style: groove;
+border-left-color: red;
+border-width: 1px;
         }
 .box-nav :hover
         {
 background-color: steelblue;
 color: black;
         }
-.box-cntnr-area
+#cntnr-area
         {
-width: 960px;
-display: inline-block;
-margin-top: 35px;
-margin-bottom: 35px;
-margin-left: 200px;
-margin-right: 200px;
+padding-top: 130px;
+min-height: calc(100vh - 70px);
         }
+.box-cntnr-area
+{
+width: 100%;
+max-width: 950px;
+margin: 0 auto;
+clear: both;
+}
 .box-left
         {
-width: 650px;
-background-color: whitesmoke;
+max-width: 650px;
+width: 100%;
 float: left;
+padding: 5px;
+margin: 0 0 40px;
+background: #fff;
+border: 1px solid #ddd;
         }
 .box-right
         {
-background-color: #172B4D;
+background-color: turquoise;
 width: 270px;
 float: left;
-margin-left: 40px;
+margin-left: 30px;
         }
 textarea{
 width: 100%;
-padding: 25px;
+padding: 5px;
 border: 1px solid #ccc;
 border-radius: 70px;
-box-sizing: border-box;
-margin-top: 55px;
+/* box-sizing: border-box; */
+margin-top: 25px;
 margin-bottom: 16px;
 resize: vertical;
-font-size: 20px;
-height: 400px;
+font-size: 15px;
+height: 330px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 3;
+max-width: 585px;
         }
-img
+.pic
         {
 float: left;
-margin: 20px;
+margin: 6px;
+width: 200px;
+height: auto;
         }
-
+#mypic
+        {
+float: left;
+margin: 0 20px;
+width: 35%;
+height: 35%;
+border-top: turquoise solid 3px;
+        }
 .imgpng
         {
 width: 50px;
-margin-right: 20px;
+margin-left: 30px;
+float: left;
+margin-top: 30px;
+margin-bottom: 20px;
         }
 h1
         {
-color: whitesmoke;background-color: teal;font-size: 40px;
+float: left;
+width: 250px;
+height: 90px;
+font-family: cursive;
+font-size: 30px;
+font-weight: 700;
+line-height: 90px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+background: teal;
         }
 h6      {
 font-size: 15px;
-margin: auto;
+color: black;
         }
 h2      {
+font-family: Georgia, 'Times New Roman', Times, serif;
 color: turquoise;
-margin-bottom: 40px;
-width: 30%;
+padding-bottom: 20px;
+width: 40%;
 margin-top: 40px;
 font-size: 30px;
+line-height: 50px;
+border-bottom: 3px solid red;
+font-weight: 700;
+margin-bottom: 20px;
         }
 p       {
 text-align: left;
-font-size: 18px;
-margin-left: 20px;
-margin-bottom: 50px;
+margin-bottom: 20px;
         }
 h3      {
-color: whitesmoke;
-padding-bottom: 25px;
-padding-top: 25px;
+margin: 5px auto;
+color: black;
+        }
+h5
+        {
+margin-top: 30px;
+border-right: 3px solid red;
+width: 25%;
+font-size: 35px;
+        }
+h4
+        {
+margin-top: 30px;
+border-right: 3px solid red;
+width: 25%;
+font-size: 35px;
         }
 .rcorners1 
-        {
+        {       
 border-bottom-right-radius: 15px;
 border-top-style: groove;
-background: #73AEAC;
-padding: 0px;
-width: 270px;
+
 border-top-left-radius: 15px;
 border-top-width: 4px;
         }
@@ -157,14 +210,15 @@ border-right-style: ridge;
         }
 footer 
         {
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-background-color: #666666;
-padding-top: 45px;
-border-top-width: 10px;
-border-style: solid;
-border-color: teal;
+padding: 30px 0;
+clear: both;
+height: 50px;
+font-size: 12px;
+color: lightslategrey;
+text-align: center;
+background: gray;
+border-top: 6px solid turquoise;
+
         } 
 /* Sylesheet de la Petru pn pagina de contacte */
 input[type=text], select
@@ -205,8 +259,4 @@ padding: 20px;
 background-color: bisque;
 border-bottom-right-radius: 25px;
 border-top-left-radius: 25px;
-        }
-.pic
-        {
-width: 285px;
         }
