@@ -1,43 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bio</title>
-    <link rel="stylesheet" href="assets/css/reset.css">  
+    
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <!-- Materialize Icons -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    
+    <!-- <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"> -->
+    <!-- JQuery link: -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"> -->
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script> -->
+    <!-- JQuery link: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- Moment js CDN -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
     <link rel="stylesheet" href="assets/css/stylemain.css">
 </head>
-    <body>
-        <header> <!--Header Start -->
-            <div class="box-cntnr">
-                <a href="./index.html"><h1> Sergio Burca</h1></a>             
-                <nav class="box-nav rcorners3">
-                    <a href="about.html" >About</a>
-                    <a href="portofolio.html">Portofolio</a>
-                    <a href="contact.html" >Contact</a>
-                </nav>
-            </div>
-        </header> <!--Header End-->
-            <div id="cntnr-area" class="box-cntnr-area ">
-                <section class="box-left rcorners2">
-                    <h2>About Me</h2>
-                    <img id="mypic" src="assets/images/Mypic.jpg" width="300" height="300" alt="temporary pic">
-                    <p>For the past 5 years I was an Automotive enthusiast. I am fascinated by the engineering minds that build every detail in our modern cars and have them work together for years. An engine or a car seat, the transmission or the windshield wipers, everything was designed to serve us. 
-                    </p>
-                    <p>Fortunately, today we have way more engineers which will build not only cars but also small apps on our phones to help us perform more efficient. I do have my very strong intention to become one of them and help build a better future for all of us!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat unde id error doloribus neque ut, minima voluptates eum laboriosam tempora reprehenderit nisi mollitia, rem, aperiam expedita inventore! Officia, labore.</p>
-                </section>
-                <aside class="box-right rcorners1 ">
-                        <h3>Contact me</h3>
-                        <a href="https://github.com/mecaniser" target="_blank"><img class="imgpng" src="assets/images/github.png" alt="GitHub"></a>
-                        <a href="https://linkedin.com/in/srgio36" target="_blank"><img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-                        <a href="https://stackoverflow.com/users/9324918/sergio" target="_blank"><img class="imgpng" src="assets/images/stackovr.png" alt="SlackOverflow"></a>
-                </aside>
-            </div>
 
-        <footer> <!--Footer starts -->
-            <h6>&COPY; Copyright 2016 Sergio Burca</h6>
-        </footer>  <!--Footer end-->
-    </body>
+<body>
+    <!-- 12  colomns -->
+    <div class="row orange-text">
+        <div class="col s1">1</div>
+        <div class="col s1">2</div>
+        <div class="col s1">3</div>
+        <div class="col s1">4</div>
+        <div class="col s1">5</div>
+        <div class="col s1">6</div>
+        <div class="col s1">7</div>
+        <div class="col s1">8</div>
+        <div class="col s1">9</div>
+        <div class="col s1">10</div>
+        <div class="col s1">11</div>
+        <div class="col s1">12</div>
+    </div>
+    <header>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li>
+                <a href="#!">one</a>
+            </li>
+            <li>
+                <a href="#!">two</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#!">three</a>
+            </li>
+        </ul>
+        <nav>
+            <div class="">
+                <a href="./index.html" class="brand-logo">Sergio Burca</a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <!-- Dropdown Trigger -->
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">HomeWork
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="container"> -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/images/technics.jpg">
+            <div class="row">
+                <div>
+                    <div class="card small">
+                        <div class="card-image">
+                            <!-- <img class="materialboxed"  alt="temporary pic"> -->
+                            <span class="card-title">About Me</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red">
+                                <i class="material-icons">account_circle</i>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <p>For the past 5 years I was an Automotive enthusiast. I am fascinated by the engineering minds
+                                that build every detail in our modern cars and have them work together for years. An engine
+                                or a car seat, the transmission or the windshield wipers, everything was designed to serve
+                                us.
+                            </p>
+                            <p>Fortunately, today we have way more engineers which will build not only cars but also small apps
+                                on our phones to help us perform more efficient. I do have my very strong intention to become
+                                one of them and help build a better future for all of us!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat unde id error doloribus
+                                neque ut, minima voluptates eum laboriosam tempora reprehenderit nisi mollitia, rem, aperiam
+                                expedita inventore! Officia, labore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Header End-->
+    <footer class="page-footer">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="black-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <!-- <div class="col l6 s12">
+                    <ul class="tabs ">
+                        <li class="tab col s4">
+                            <a class="active" href="https://github.com/mecaniser">
+                                <!-- <img class="imgpng" src="assets/images/github.png" alt="GitHub"> -->
+            </a>
+            </li>
+            <li class="tab col s4">
+                <a class="active" href="https://linkedin.com/in/srgio36" target="_blank">
+                    <!-- <img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"> -->
+                </a>
+            </li>
+            <li class="tab col s4">
+                <a class="active" href="https://stackoverflow.com/users/9324918/sergio" target="_blank">
+                    <!-- <img class="imgpng" src="assets/images/if_109-slack_710949.png" alt="SlackOverflow"> -->
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        <!-- </div> -->
+        <div class="footer-copyright black-text">
+            <div class="container">
+                &COPY; Copyright 2018 Sergio Burca
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!-- <script type="text/javascript">
+        var elem = document.querySelector('.parallax');
+        var instance = M.Parallax.init(elem, options);
+    </script> -->
+
+    <script src="./assets/js/bio.js"></script>
+    <!-- 12  colomns -->
+    <div class="row orange-text">
+        <div class="col s1">1</div>
+        <div class="col s1">2</div>
+        <div class="col s1">3</div>
+        <div class="col s1">4</div>
+        <div class="col s1">5</div>
+        <div class="col s1">6</div>
+        <div class="col s1">7</div>
+        <div class="col s1">8</div>
+        <div class="col s1">9</div>
+        <div class="col s1">10</div>
+        <div class="col s1">11</div>
+        <div class="col s1">12</div>
+    </div>
+</body>
+
 </html>

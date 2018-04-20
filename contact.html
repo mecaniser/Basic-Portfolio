@@ -1,54 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- Moment js CDN -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/stylemain.css">
 </head>
-    <body>
-        <header class="box-hdr"> <!--Header Start -->
-                <div class="box-cntnr">
-                    <a href="./index.html"><h1> Sergio Burca</h1></a>               
-                    <nav class="box-nav rcorners3">
-                        <a href="./about.html" >About</a>
-                        <a href="portofolio.html" >Portofolio</a>
-                        <a href="./contact.html" >Contact</a>
-                    </nav>
+
+<body>
+    <!-- 12  colomns -->
+    <div class="row orange-text">
+        <div class="col s1">1</div>
+        <div class="col s1">2</div>
+        <div class="col s1">3</div>
+        <div class="col s1">4</div>
+        <div class="col s1">5</div>
+        <div class="col s1">6</div>
+        <div class="col s1">7</div>
+        <div class="col s1">8</div>
+        <div class="col s1">9</div>
+        <div class="col s1">10</div>
+        <div class="col s1">11</div>
+        <div class="col s1">12</div>
+    </div>
+    <header>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li>
+                <a href="#!">one</a>
+            </li>
+            <li>
+                <a href="#!">two</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#!">three</a>
+            </li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="./index.html" class="brand-logo">Sergio Burca</a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <!-- Dropdown Trigger -->
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">HomeWork
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <form class="col s6">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
                 </div>
-        </header> <!--Header Ends-->
-            <div id="cntnr-area" class="box-cntnr-area ">
-                <section class="box-left rcorners2">
-                    <div class="box-txt">
-                        <h5>Contact</h5>
-                        <form>
-                            <label for="fname">Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="John Smith">
-
-                            <label for="lname">Email</label>
-                            <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-
-                            <label for="subject">Message</label>
-                            <textarea id="subject"  style="height:200px"></textarea>
-
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>       
-                </section>
-                <aside  class="box-right rcorners1 ">
-                    <div class="inside">
-                        <h3>Contact Me</h3>
-                        <div><a href="https://github.com/mecaniser" target="_blank"><img class="imgpng" src="assets/images/github.png" alt="GitHub"></a></div> 
-                        <div><a href="https://linkedin.com/in/srgio36" target="_blank"><img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"></a> </div>
-                        <div><a href="https://stackoverflow.com/users/9324918/sergio" target="_blank"><img class="imgpng" src="assets/images/stackovr.png" alt="SlackOverflow"></a></div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="input-field inline">
+                            <input id="email_inline" type="email" class="validate">
+                            <label for="email_inline">Email</label>
+                            <span class="helper-text" data-error="wrong" data-success="right"></span>
+                        </div>
                     </div>
-                </aside>
+                </div>
+                <button type="submit">Submit</button>
+
             </div>
 
-        <footer> <!--Footer starts -->
-            <h6>&COPY; Copyright 2016 Sergio Burca</h6> 
-        </footer>  <!--Footer end-->
+        </form>
+    </div>
+
+    <!-- <div class="col s6">
+            <nav>
+                <div class="valign-wrapper">
+                    <div class="col s12">
+                        <a href="https://github.com/mecaniser" class="breadcrumb">GitHub </a>
+                        <a href="https://linkedin.com/in/srgio36" class="breadcrumb">LinkedIn</a>
+                        <a href="https://linkedin.com/in/srgio36" class="breadcrumb">SOF</a>
+                    </div>
+                </div>
+            </nav>
+        </div> -->
+
+
+    <!-- <div class="col s3">
+            <span class="card-title orange-text">Contact Me</span>
+            <div class="card orange small">
+                <div class="card-content black-text">
+                    <div>
+                        <a href="https://github.com/mecaniser" target="_blank">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://linkedin.com/in/srgio36" target="_blank">
+                            <img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://stackoverflow.com/users/9324918/sergio" target="_blank">
+                            <img class="imgpng" src="assets/images/if_109-slack_710949.png" alt="SlackOverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <footer class="page-footer">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="black-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l6 s12">
+                <ul class="nav navbar-nav navbar-right nav-link">
+                    <li>
+                        <a class="active" href="https://github.com/mecaniser">GitHub</a>
+                    </li>
+                    <li>
+                        <a class="active" href="https://linkedin.com/in/srgio36" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a class="active" href="https://stackoverflow.com/users/9324918/sergio" target="_blank">SOF</li>
+                </ul>
+                <!-- <ul class="tabs ">
+                    <li class="tab col s4">
+                        <a class="active" href="https://github.com/mecaniser"> -->
+                <!-- <img class="imgpng" src="assets/images/github.png" alt="GitHub"> -->
+                <!-- </a>
+                    </li>
+                    <li class="tab col s4">
+                        <a class="active" href="https://linkedin.com/in/srgio36" target="_blank"> -->
+                <!-- <img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"> -->
+                <!-- </a>
+                    </li>
+                    <li class="tab col s4">
+                        <a class="active" href="https://stackoverflow.com/users/9324918/sergio" target="_blank"> -->
+                <!-- <img class="imgpng" src="assets/images/if_109-slack_710949.png" alt="SlackOverflow"> -->
+                <!-- </a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="footer-copyright black-text">
+            <div class="container">
+                &COPY; Copyright 2018 Sergio Burca
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/bio.js"></script>
+    <!-- 12  colomns -->
+    <div class="row orange-text">
+        <div class="col s1">1</div>
+        <div class="col s1">2</div>
+        <div class="col s1">3</div>
+        <div class="col s1">4</div>
+        <div class="col s1">5</div>
+        <div class="col s1">6</div>
+        <div class="col s1">7</div>
+        <div class="col s1">8</div>
+        <div class="col s1">9</div>
+        <div class="col s1">10</div>
+        <div class="col s1">11</div>
+        <div class="col s1">12</div>
+    </div>
 </body>
+
 </html>
