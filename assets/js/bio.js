@@ -1,10 +1,8 @@
 $(document).ready(function () {
-    // $('.parallax').parallax();
-    // M.updateTextFields();
-    M.AutoInit();
-    // $('.carousel').carousel();
-    // $(".dropdown-trigger").dropdown();
-    // $('.parallax').parallax();
-    // $('.materialboxed').materialbox();
-    // $('.tabs').tabs();
+    $('.tooltipped').tooltip({
+        position: "top"
+    });
+    $('.fixed-action-btn').floatingActionButton({
+        direction:"left",
+    });
 });
