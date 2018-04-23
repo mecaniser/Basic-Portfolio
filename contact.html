@@ -21,97 +21,103 @@
 
 <body>
 
-
-    <nav>
-        <div class="nav-wrapper  teal accent-2">
-            <a href="./home.html" class="brand-logo animated hinge">Sergio Burca</a>
-            <ul class="right hide-on-med-and-down teal accent-3">
+    <nav >
+        <div class="nav-wrapper deep-orange ">
+            <a href="./home.html" class="brand-logo animated hinge ">Sergio Burca</a>
+            <a class='left dropdown-trigger btn-floating btn-large' href='#' data-target='dropdown2'>
+            <i class="material-icons">menu</i>
+            </a>
+            <ul id='dropdown2' class="right deep-orange lighten-2 dropdown-content">
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
+                <li class="divider" tabindex="-1"></li>
                 <li>
-                    <a href="portofolio.html">Portofolio</a>
+                    <a href="portofolio.html">Portfolio</a>
                 </li>
+                <li class="divider" tabindex="-1"></li>
                 <li>
                     <a href="about.html">About</a>
                 </li>
             </ul>
         </div>
     </nav>
-    </header>
-    <!-- Tooltip -->
-    <div class="row">
-        <div class="col offset-s2 s8 ">
-            <h4 class="header">Contact</h4>
-            <div class="card" id="contact">
-                <div class="card-content">
-                    <img src="./assets/images/Mypic.jpg" alt="" class="circle responsive-img activator card-profile-image">
-                    <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
-                        <i class="material-icons">flip_to_back</i>
-                    </a>
-                    <span class="card-title activator grey-text text-darken-4">Sergio Burca</span>
-                    <p>
-                        <i class="mdi-action-perm-identity"></i> Project Manager</p>
-                    <p>
-                        <i class="mdi-action-perm-phone-msg"></i> +1 (xxx) xxx xxxx</p>
-                    <p>
-                        <i class="mdi-communication-email"></i> Sergioburca@gmail.com</p>
-
-                </div>
-
-                <div class="card-reveal" style="display: none; transform: translateY(0px);">
-                    <a class="btn-floating activator btn-move-down waves-effect waves-light darken-2 right">
-                        <i class="material-icons">flip_to_front</i>
-                    </a>
-                    <span class="card-title grey-text text-darken-4">Sergio Burca
-                    </span>
-
-                    <p>Here is some more information about me.</p>
-                    <p>
-                        <i class="material-icons">face</i> Project Manager</p>
-                    <p>
-                        <i class="material-icons">phone</i> +1 (XXX) XXX XXX</p>
-                    <p>
-                        <i class="material-icons">email</i>Sergioburca@gmail.com</p>
-                    <p>
-                        <i class="material-icons">cake</i> April 1986
-                    </p>
-
-                    <p>
-                        <i class="material-icons">center_focus_strong</i> MD - USA
-                    </p>
-                    <div class="container">
-                        <div class="col xl7 push-xl5">
-                            <div class="fixed-action-btn">
-                                <a class="btn-floating btn-large purple ">
-                                    <i class="large material-icons">account_box</i>
+    <div class="container">
+            <div class="row">
+                    <div class="col offset-s2 s8 ">
+                        <h4 class="header">Contact</h4>
+                        <div class="card" id="contact">
+                            <div class="card-content">
+                                <img src="./assets/images/Mypic.jpg" alt="" class="circle responsive-img activator card-profile-image">
+                                <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
+                                    <i class="material-icons">flip_to_back</i>
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a class="btn-floating red btn tooltipped" data-tooltip="GitHub" href="https://github.com/mecaniser" target="_blank">
-                                            <i class="material-icons">face</i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="btn-floating yellow darken-1 btn tooltipped" data-tooltip="LinkedIn" href="https://linkedin.com/in/srgio36" target="_blank">
-                                            <i class="material-icons">face</i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="btn-floating green btn tooltipped" data-tooltip="StkOvrFlw" href="https://stackoverflow.com/users/9324918/sergio"
-                                            target="_blank">
-                                            <i class="material-icons">face</i>
-                                        </a>
-                                    </li>
-
-                                </ul>
+                                <span class="card-title activator orange-text text-darken-4">Sergio Burca</span>
+                                <p>
+                                    <i class="mdi-action-perm-identity"></i> Project Manager</p>
+                                <p>
+                                    <i class="mdi-action-perm-phone-msg"></i> +1 (xxx) xxx xxxx</p>
+                                <p>
+                                    <i class="mdi-communication-email"></i> Sergioburca@gmail.com</p>
+            
+                            </div>
+            
+                            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                                <a class="btn-floating activator btn-move-down waves-effect waves-light darken-2 right">
+                                    <i class="material-icons">flip_to_front</i>
+                                </a>
+                                <span class="card-title orange-text text-darken-4">Sergio Burca
+                                </span>
+            
+                                <p>Here is some more information about me.</p>
+                                <p>
+                                    <i class="material-icons">face</i> Project Manager</p>
+                                <p>
+                                    <i class="material-icons">phone</i> +1 (XXX) XXX XXX</p>
+                                <p>
+                                    <i class="material-icons">email</i>Sergioburca@gmail.com</p>
+                                <p>
+                                    <i class="material-icons">cake</i> April 1986
+                                </p>
+            
+                                <p>
+                                    <i class="material-icons">center_focus_strong</i> MD - USA
+                                </p>
+                                <div class="container">
+                                    <div class="col xl7 push-xl5">
+                                        <div class="fixed-action-btn">
+                                            <a class="btn-floating btn-large purple ">
+                                                <i class="large material-icons">account_box</i>
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a class="btn-floating red btn tooltipped" data-tooltip="GitHub" href="https://github.com/mecaniser" target="_blank">
+                                                        <i class="material-icons">face</i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="btn-floating yellow darken-1 btn tooltipped" data-tooltip="LinkedIn" href="https://linkedin.com/in/srgio36" target="_blank">
+                                                        <i class="material-icons">face</i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="btn-floating green btn tooltipped" data-tooltip="StkOvrFlw" href="https://stackoverflow.com/users/9324918/sergio"
+                                                        target="_blank">
+                                                        <i class="material-icons">face</i>
+                                                    </a>
+                                                </li>
+            
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
     </div>
+   
 
     <footer class="page-footer black">
         &COPY; Copyright 2018 Sergio Burca
