@@ -1,10 +1,12 @@
-# My Portolio 
+# **My Portfolio**
 
-**Materialize was used to style the porfolio**
+**Materialize was used to style the portfolio**
 ---
-_Jquery initialized Materialize_
+_Jquery will initialize Materialize_
 ---
-`CSS to style speciefic elements`
+`AnimateCSS to animate speciefic elements`
 ---
 
-![](assets/images/linkedin.png) ![](assets/images/if_109-slack_710949.png) ![](assets/images/github.png)
+`All tools below were used at my best knowledge to build up my portfolio to this stage`
+
+![](assets/images/bash.png) ![](assets/images/heroku.png) ![](assets/images/Git2.png) ![](assets/images/html5.png)![](assets/images/css.png) ![](assets/images/materialize.png) ![](assets/images/jquery.png)
