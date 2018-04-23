@@ -22,37 +22,38 @@
 </head>
 
 <body>
-    <!--Header Start -->
-    <header>
-        <nav>
-            <div class="nav-wrapper deep-orange">
-                <a href="./home.html" class="brand-logo animated tada">Sergio Burca</a>
-                <ul class="right hide-on-med-and-down deep-orange lighten-2">
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="portofolio.html">Portofolio</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!--Header Wrapper Ends-->
+    <nav>
+        <div class="nav-wrapper blue-grey ">
+            <a href="./home.html" class="brand-logo animated tada ">Sergio Burca</a>
+            <a class='left dropdown-trigger btn-floating btn-large amber' href='#' data-target='dropdown2'>
+                <i class="material-icons">menu</i>
+            </a>
+            <ul id='dropdown2' class="right orange lighten-2 dropdown-content">
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="divider" tabindex="-1"></li>
+                <li>
+                    <a href="portofolio.html">Portfolio</a>
+                </li>
+                <li class="divider" tabindex="-1"></li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <!-- Project #2 -->
             <div class="col s12 m6 l4">
-                <div class="card animated bounceInLeft">
+                <div id="prjct2"  class="card  animated bounceInLeft">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="portfolio-image activator" src="./assets/images/cat.jpg">
 
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project #2
+                        <span class="card-title activator">Project # 2
                             <i class="material-icons right">more_vert</i>
                         </span>
                         <p>
@@ -61,36 +62,41 @@
                         </p>
                     </div>
                     <div class="card-reveal">
-                        <p>This is your ultimate source for information on all breeds of cats.</p>
+                        <span class="card-title">
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                            <h6> This is your ultimate source for information on all breeds of cats.</h6>
+                        </p>
                         <img class="portfolio-image circle responsive-img animated flipInX" src="./assets/images/favicon.jpg">
                         <ul>
                             <li>
                                 <span class="card-title grey-text text-darken-4">Pet Finder
-                                    <i class="material-icons btn-floating btn-small red">close</i>
                                 </span>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInRight" href="https://petfinder-mecaniser.herokuapp.com/index.html" target="_blank">Go To PetFinder
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInRight" href="https://petfinder-mecaniser.herokuapp.com/index.html"
+                                    target="_blank">Go To PetFinder
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- Project 1 -->
-            <div class="col s12 m6 l4">
+            <div class="col s12 m6 l5">
                 <div class="card animated bounceInUp">
                     <div class="card-image waves-effect waves-block waves-light medium">
                         <img class="portfolio-image activator" src="./assets/images/Cooking2.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project # 1
+                        <span class="card-title activator">Project # 1
                             <i class="material-icons right">more_vert</i>
                         </span>
                         <p>
@@ -107,31 +113,30 @@
                         <ul>
                             <li>
                                 <span class="card-title grey-text text-darken-4">Recipe Finder
-                                    <i class="material-icons btn-floating btn-small red">close</i>
                                 </span>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInRight" href="https://rcpfndr.herokuapp.com/" target="_blank">Go To Recipe Finder
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInRight" href="https://rcpfndr.herokuapp.com/" target="_blank">Go To Recipe Finder
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- 3 -->
-            <div class="col s12 m6 l4">
-                <div class="card animated bounceInRight">
+            <div  class="col s12 m6 l3">
+                <div id="prjct3" class="card animated bounceInRight">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="portfolio-image activator" src="./assets/images/technics.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Home Work 4
+                        <span class="card-title activator">Coming soon...1
                             <i class="material-icons right">more_vert</i>
                         </span>
                     </div>
@@ -140,22 +145,22 @@
                             <i class="material-icons right">close</i>
                         </span>
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        <img class="portfolio-image circle responsive-img animated lightSpeedIn" src="./assets/images/Mypic.jpg">
+                        <img class="portfolio-image circle responsive-img animated lightSpeedIn" src="./assets/images/Git2.png">
                         <ul>
                             <li>
                                 <span class="card-title grey-text text-darken-4">Pet Finder
-                                    <i class="material-icons btn-floating btn-small red">close</i>
                                 </span>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInRight" href="https://petfinder-mecaniser.herokuapp.com/index.html" target="_blank">Go To PetFinder
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInRight" href="https://petfinder-mecaniser.herokuapp.com/index.html"
+                                    target="_blank">Go To PetFinder
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                             <li>
-                                    <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
-                                        <i class="material-icons right">link</i>
-                                    </a>
+                                <a class="waves-effect waves-light btn-small animated slideInLeft" href="https://github.com/mecaniser/PetFinder" target="_blank">GitHub Repo
+                                    <i class="material-icons right">link</i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -168,7 +173,7 @@
                         <img class="portfolio-image activator" src="./assets/images/sports.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Home Work 4
+                        <span class="card-title activator">Coming soon...2
                             <i class="material-icons right">more_vert</i>
                         </span>
                         <p>
@@ -181,18 +186,18 @@
                             <i class="material-icons right">close</i>
                         </span>
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        <img class="portfolio-image circle responsive-img animated slideInUp" src="./assets/images/sports.jpg">
+                        <img class="portfolio-image circle responsive-img animated slideInUp" src="./assets/images/github.png">
                     </div>
                 </div>
             </div>
             <!-- 5 -->
-            <div class="col s12 m6 l4 ">
+            <div class="col s12 m6 l4">
                 <div class="card animated bounceInLeft">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class=" activator responsive-img " src="./assets/images/nature.jpg">
+                        <img class=" activator responsive-img " src="./assets/images/Cooking.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Home Work 6
+                        <span class="card-title activator">Coming soon...3
                             <i class="material-icons right">more_vert</i>
                         </span>
                         <p>
@@ -205,19 +210,19 @@
                             <i class="material-icons right">close</i>
                         </span>
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        <img class="portfolio-image circle responsive-img animated zoomIn" src="./assets/images/nature.jpg">
+                        <img class="portfolio-image circle responsive-img animated zoomIn" src="./assets/images/Git2.png">
 
                     </div>
                 </div>
             </div>
             <!-- 6 -->
-            <div class="col s12 m6 l4 ">
+            <div class="col s12 m6 l4">
                 <div class="card animated bounceInLeft">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class=" activator responsive-img " src="./assets/images/nature.jpg">
+                        <img class=" activator responsive-img " src="./assets/images/city.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Home Work 6
+                        <span class="card-title activator">Coming soon...4
                             <i class="material-icons right">more_vert</i>
                         </span>
                         <p>
@@ -230,7 +235,7 @@
                             <i class="material-icons right">close</i>
                         </span>
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        <img class="portfolio-image circle responsive-img animated zoomInDown" src="./assets/images/nature.jpg">
+                        <img class="portfolio-image circle responsive-img animated zoomInDown" src="./assets/images/github.png">
                     </div>
                 </div>
             </div>
