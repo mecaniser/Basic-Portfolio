@@ -4,7 +4,7 @@
 ---
 _Jquery will initialize Materialize_
 ---
-`AnimateCSS to animate speciefic elements`
+`AnimateCSS to animate specific elements`
 ---
 
 `All tools below were used at my best knowledge to build up my portfolio to this stage`
