@@ -32,7 +32,11 @@ footer {
 
 .card {
         height: 685px;
-        overflow:hidden;
+        overflow:hidden ;
         background: none;
         overflow-wrap: break-word;
+        border-radius: 10px;
+}
+.card-reveal{
+        overflow:hidden ;
 }
