@@ -38,5 +38,5 @@ footer {
         border-radius: 10px;
 }
 .card-reveal{
-        overflow:auto ;
+        overflow-y:hidden ;
 }
