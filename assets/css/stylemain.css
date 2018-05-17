@@ -40,9 +40,10 @@ footer {
         overflow:auto ;
         background: none;
         border-radius: 10px;
+        overflow-y: hidden;
 }
 .card-reveal{
-        overflow-y:auto;
+        overflow-y:hidden;
 }
 .page-footer{
         background: none;
