@@ -14,7 +14,11 @@ body {
 }
 
 #cardTrn {
-        opacity: .7;
+        opacity: .9;
+}
+nav{
+        background: none;
+        width: 100%;
 }
 
 #contact {
@@ -29,15 +33,20 @@ body {
 
 footer {
         padding: 10px;
+        width: 100%;
 }
-
 .card {
         height: 685px;
-        overflow:hidden ;
+        overflow:auto ;
         background: none;
-        overflow-wrap: break-word;
         border-radius: 10px;
 }
 .card-reveal{
-        overflow-y:hidden ;
+        overflow-y:auto;
+}
+.page-footer{
+        background: none;
+}
+.btn-floating{
+        display: table-footer-group;
 }
